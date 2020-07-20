@@ -1,0 +1,106 @@
+// RFS import
+@import "../../node_modules/rfs/stylus.styl";
+
+// Font imports
+@font-face
+   font-family SourceSansPro
+   src url(/fonts/SourceSansPro-Regular.ttf)
+   font-weight 400
+
+@font-face
+   font-family SourceSansPro
+   src url(/fonts/SourceSansPro-SemiBold.ttf)
+   font-weight 600
+
+@font-face
+   font-family BlackoutSunrise
+   src url(/fonts/BebasNeue-Regular.ttf)
+
+white = #ffffff
+darkGrey = #4f4f4f
+black = #000000
+backgroundWhite = #f9f9f9
+red = #c2000b
+
+body 
+   margin 0
+   padding 0
+   color darkGrey
+   background-color backgroundWhite
+   font-family SourceSansPro
+
+a
+   rfs(1rem)
+   text-decoration none
+   color black
+   transition 0.2s
+
+a:hover 
+	padding-bottom 5px
+	border-bottom 2px solid red
+
+img
+   width 100%
+   
+h1 
+   rfs(4rem)
+
+h1 a
+   rfs(2.3rem)
+
+h2
+   rfs(1.8rem)
+
+h2 a
+   rfs(1.8rem)
+
+h3
+   rfs(1.5rem)
+
+h3 a
+   rfs(1.5rem)
+
+h4
+   rfs(1.2rem)
+
+h4 a
+   rfs(1.2rem)
+
+h5
+   rfs(0.9rem)
+
+h5 a
+   rfs(0.9rem)
+
+h6, h6 a
+   rfs(1rem)
+
+p 
+   rfs(1rem)
+   margin-top 0
+   margin-bottom 0
+
+p a
+   rfs(1rem)
+   font-weight bold
+
+h1, h2, h3, h4, h5, h6
+   margin-top 0
+   margin-bottom 0
+
+.widthRestriction
+   width 85%
+   display block
+   margin 0 auto
+
+::selection
+   background-color darkGrey
+   color white
+
+.center
+	text-align center
+
+.logoFont
+	font-family BlackoutSunrise
+.red
+	color red
