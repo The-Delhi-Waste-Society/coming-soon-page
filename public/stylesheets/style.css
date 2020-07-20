@@ -15,19 +15,19 @@
 body {
   margin: 0;
   padding: 0;
-  color: #4f4f4f;
-  background-color: #f9f9f9;
+  color: #f9f9f9;
+  background-color: #bd1613;
   font-family: SourceSansPro;
 }
 a {
   font-size: 1rem;
   text-decoration: none;
-  color: #000;
+  color: #fff;
   transition: 0.2s;
 }
 a:hover {
   padding-bottom: 5px;
-  border-bottom: 2px solid #c2000b;
+  border-bottom: 2px solid #fff;
 }
 img {
   width: 100%;
@@ -130,5 +130,5 @@ h6 {
   font-family: BlackoutSunrise;
 }
 .red {
-  color: #c2000b;
+  color: #bd1613;
 }
